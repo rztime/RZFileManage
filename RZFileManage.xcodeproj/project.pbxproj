@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288750680553D16F8EC1BA10 /* libPods-RZFileManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F73D30D62D6178FE4261A9A6 /* libPods-RZFileManage.a */; };
+		767932F420B7B67400AA3B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 767932F320B7B67400AA3B31 /* AppDelegate.m */; };
+		767932F720B7B67400AA3B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767932F620B7B67400AA3B31 /* ViewController.m */; };
+		767932FA20B7B67400AA3B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767932F820B7B67400AA3B31 /* Main.storyboard */; };
+		767932FC20B7B67600AA3B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767932FB20B7B67600AA3B31 /* Assets.xcassets */; };
+		767932FF20B7B67600AA3B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767932FD20B7B67600AA3B31 /* LaunchScreen.storyboard */; };
+		7679330220B7B67600AA3B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7679330120B7B67600AA3B31 /* main.m */; };
+		7679331720B7B67F00AA3B31 /* RZFileImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7679330A20B7B67F00AA3B31 /* RZFileImage.bundle */; };
+		7679331820B7B67F00AA3B31 /* RZFileImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7679330B20B7B67F00AA3B31 /* RZFileImage.m */; };
+		7679331920B7B67F00AA3B31 /* RZPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7679331020B7B67F00AA3B31 /* RZPlaceHolderView.m */; };
+		7679331A20B7B67F00AA3B31 /* RZWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7679331120B7B67F00AA3B31 /* RZWebView.m */; };
+		7679331B20B7B67F00AA3B31 /* Rz_file_Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7679331320B7B67F00AA3B31 /* Rz_file_Resource.bundle */; };
+		7679331C20B7B67F00AA3B31 /* RZFilePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7679331620B7B67F00AA3B31 /* RZFilePreview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		767932EF20B7B67400AA3B31 /* RZFileManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZFileManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767932F220B7B67400AA3B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		767932F320B7B67400AA3B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		767932F520B7B67400AA3B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		767932F620B7B67400AA3B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		767932F920B7B67400AA3B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767932FB20B7B67600AA3B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767932FE20B7B67600AA3B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7679330020B7B67600AA3B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7679330120B7B67600AA3B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7679330A20B7B67F00AA3B31 /* RZFileImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RZFileImage.bundle; sourceTree = "<group>"; };
+		7679330B20B7B67F00AA3B31 /* RZFileImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFileImage.m; sourceTree = "<group>"; };
+		7679330C20B7B67F00AA3B31 /* RZFileImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFileImage.h; sourceTree = "<group>"; };
+		7679330E20B7B67F00AA3B31 /* RZPlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlaceHolderView.h; sourceTree = "<group>"; };
+		7679330F20B7B67F00AA3B31 /* RZWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZWebView.h; sourceTree = "<group>"; };
+		7679331020B7B67F00AA3B31 /* RZPlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlaceHolderView.m; sourceTree = "<group>"; };
+		7679331120B7B67F00AA3B31 /* RZWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZWebView.m; sourceTree = "<group>"; };
+		7679331320B7B67F00AA3B31 /* Rz_file_Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Rz_file_Resource.bundle; sourceTree = "<group>"; };
+		7679331520B7B67F00AA3B31 /* RZFilePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFilePreview.h; sourceTree = "<group>"; };
+		7679331620B7B67F00AA3B31 /* RZFilePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFilePreview.m; sourceTree = "<group>"; };
+		A9E4500AB6541972F3629289 /* Pods-RZFileManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFileManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZFileManage/Pods-RZFileManage.debug.xcconfig"; sourceTree = "<group>"; };
+		F73D30D62D6178FE4261A9A6 /* libPods-RZFileManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RZFileManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8065C1A42E38EDFE0F2ADD /* Pods-RZFileManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZFileManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZFileManage/Pods-RZFileManage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767932EC20B7B67400AA3B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288750680553D16F8EC1BA10 /* libPods-RZFileManage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767932E620B7B67400AA3B31 = {
+			isa = PBXGroup;
+			children = (
+				767932F120B7B67400AA3B31 /* RZFileManage */,
+				767932F020B7B67400AA3B31 /* Products */,
+				BC311BF0BE06226136D4ED75 /* Pods */,
+				C5AD16A3537D2C0486002821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		767932F020B7B67400AA3B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767932EF20B7B67400AA3B31 /* RZFileManage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767932F120B7B67400AA3B31 /* RZFileManage */ = {
+			isa = PBXGroup;
+			children = (
+				7679330820B7B67F00AA3B31 /* RZFileManager */,
+				767932F220B7B67400AA3B31 /* AppDelegate.h */,
+				767932F320B7B67400AA3B31 /* AppDelegate.m */,
+				767932F520B7B67400AA3B31 /* ViewController.h */,
+				767932F620B7B67400AA3B31 /* ViewController.m */,
+				767932F820B7B67400AA3B31 /* Main.storyboard */,
+				767932FB20B7B67600AA3B31 /* Assets.xcassets */,
+				767932FD20B7B67600AA3B31 /* LaunchScreen.storyboard */,
+				7679330020B7B67600AA3B31 /* Info.plist */,
+				7679330120B7B67600AA3B31 /* main.m */,
+			);
+			path = RZFileManage;
+			sourceTree = "<group>";
+		};
+		7679330820B7B67F00AA3B31 /* RZFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				7679330920B7B67F00AA3B31 /* RZFileImage */,
+				7679330D20B7B67F00AA3B31 /* View */,
+				7679331220B7B67F00AA3B31 /* Resource */,
+				7679331420B7B67F00AA3B31 /* RZFilePreview */,
+			);
+			path = RZFileManager;
+			sourceTree = "<group>";
+		};
+		7679330920B7B67F00AA3B31 /* RZFileImage */ = {
+			isa = PBXGroup;
+			children = (
+				7679330A20B7B67F00AA3B31 /* RZFileImage.bundle */,
+				7679330B20B7B67F00AA3B31 /* RZFileImage.m */,
+				7679330C20B7B67F00AA3B31 /* RZFileImage.h */,
+			);
+			path = RZFileImage;
+			sourceTree = "<group>";
+		};
+		7679330D20B7B67F00AA3B31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7679330E20B7B67F00AA3B31 /* RZPlaceHolderView.h */,
+				7679330F20B7B67F00AA3B31 /* RZWebView.h */,
+				7679331020B7B67F00AA3B31 /* RZPlaceHolderView.m */,
+				7679331120B7B67F00AA3B31 /* RZWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7679331220B7B67F00AA3B31 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7679331320B7B67F00AA3B31 /* Rz_file_Resource.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7679331420B7B67F00AA3B31 /* RZFilePreview */ = {
+			isa = PBXGroup;
+			children = (
+				7679331520B7B67F00AA3B31 /* RZFilePreview.h */,
+				7679331620B7B67F00AA3B31 /* RZFilePreview.m */,
+			);
+			path = RZFilePreview;
+			sourceTree = "<group>";
+		};
+		BC311BF0BE06226136D4ED75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9E4500AB6541972F3629289 /* Pods-RZFileManage.debug.xcconfig */,
+				FA8065C1A42E38EDFE0F2ADD /* Pods-RZFileManage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5AD16A3537D2C0486002821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73D30D62D6178FE4261A9A6 /* libPods-RZFileManage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767932EE20B7B67400AA3B31 /* RZFileManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7679330520B7B67600AA3B31 /* Build configuration list for PBXNativeTarget "RZFileManage" */;
+			buildPhases = (
+				1429D9D6C83538C63745A064 /* [CP] Check Pods Manifest.lock */,
+				767932EB20B7B67400AA3B31 /* Sources */,
+				767932EC20B7B67400AA3B31 /* Frameworks */,
+				767932ED20B7B67400AA3B31 /* Resources */,
+				364B1DD1BC480A34A5C7FD1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZFileManage;
+			productName = RZFileManage;
+			productReference = 767932EF20B7B67400AA3B31 /* RZFileManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767932E720B7B67400AA3B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = rztime;
+				TargetAttributes = {
+					767932EE20B7B67400AA3B31 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 767932EA20B7B67400AA3B31 /* Build configuration list for PBXProject "RZFileManage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767932E620B7B67400AA3B31;
+			productRefGroup = 767932F020B7B67400AA3B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767932EE20B7B67400AA3B31 /* RZFileManage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767932ED20B7B67400AA3B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767932FF20B7B67600AA3B31 /* LaunchScreen.storyboard in Resources */,
+				7679331720B7B67F00AA3B31 /* RZFileImage.bundle in Resources */,
+				767932FC20B7B67600AA3B31 /* Assets.xcassets in Resources */,
+				7679331B20B7B67F00AA3B31 /* Rz_file_Resource.bundle in Resources */,
+				767932FA20B7B67400AA3B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1429D9D6C83538C63745A064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RZFileManage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364B1DD1BC480A34A5C7FD1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RZFileManage/Pods-RZFileManage-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZFileManage/Pods-RZFileManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767932EB20B7B67400AA3B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767932F720B7B67400AA3B31 /* ViewController.m in Sources */,
+				7679331C20B7B67F00AA3B31 /* RZFilePreview.m in Sources */,
+				7679330220B7B67600AA3B31 /* main.m in Sources */,
+				767932F420B7B67400AA3B31 /* AppDelegate.m in Sources */,
+				7679331820B7B67F00AA3B31 /* RZFileImage.m in Sources */,
+				7679331920B7B67F00AA3B31 /* RZPlaceHolderView.m in Sources */,
+				7679331A20B7B67F00AA3B31 /* RZWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		767932F820B7B67400AA3B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767932F920B7B67400AA3B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767932FD20B7B67600AA3B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767932FE20B7B67600AA3B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7679330320B7B67600AA3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7679330420B7B67600AA3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7679330620B7B67600AA3B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E4500AB6541972F3629289 /* Pods-RZFileManage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RZFileManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rztime.RZFileManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7679330720B7B67600AA3B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8065C1A42E38EDFE0F2ADD /* Pods-RZFileManage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RZFileManage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rztime.RZFileManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767932EA20B7B67400AA3B31 /* Build configuration list for PBXProject "RZFileManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679330320B7B67600AA3B31 /* Debug */,
+				7679330420B7B67600AA3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7679330520B7B67600AA3B31 /* Build configuration list for PBXNativeTarget "RZFileManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7679330620B7B67600AA3B31 /* Debug */,
+				7679330720B7B67600AA3B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767932E720B7B67400AA3B31 /* Project object */;
+}
